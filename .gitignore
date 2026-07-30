@@ -1,0 +1,53 @@
+# Paper and downloaded market data
+*.pdf
+/data/raw/
+/data/processed/
+
+# Virtual environments
+.venv/
+venv/
+env/
+virtualenv/
+
+# Python caches and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.*
+secrets.*
+
+# Generated model, prediction, and result artifacts
+/models/
+/artifacts/
+/outputs/
+/results/**/*.csv
+/results/**/*.json
+/results/**/*.jsonl
+/results/**/*.parquet
+/results/**/*.pkl
+/results/**/*.pickle
+/results/**/*.joblib
+*.npy
+*.npz
+*.onnx
+*.pt
+*.pth
+*.safetensors
+
+# Logs and editor/OS noise
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
